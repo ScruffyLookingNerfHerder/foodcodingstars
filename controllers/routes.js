@@ -1,20 +1,10 @@
 var express = require("express");
-const router = require('express').Router();
-var path = require("path");
+var router = express.Router();
 
 
+router.get("/", function(req, res){
 
-router.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "../public/signin.html"));
-});
-
-router.get("/user", function(req, res) {
-  res.sendFile(path.join(__dirname, "../public/userpage.html"));
-});
-
-router.get("/search", function(req, res){
-  res.sendFile(path.join(__dirname, "../public/search.html"));
-
+  res.render("index");
 });
 
 
