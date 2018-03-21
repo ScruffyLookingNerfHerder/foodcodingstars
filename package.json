@@ -13,7 +13,9 @@
     "mysql": "^2.15.0",
     "nodemon": "^1.17.2",
     "passport": "^0.4.0",
-    "passport-google-oauth20": "^1.0.0"
+    "passport-google-oauth20": "^1.0.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.37.1"
   },
   "devDependencies": {},
   "scripts": {
